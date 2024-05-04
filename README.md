@@ -15,7 +15,6 @@ This Python script automates web interactions using Selenium WebDriver. It navig
     
     ```
     pip install selenium
-    
     ```
     
 3. Download the Chrome WebDriver compatible with your Chrome browser version from [chromedriver.chromium.org](https://sites.google.com/a/chromium.org/chromedriver/downloads).
@@ -29,7 +28,6 @@ This Python script automates web interactions using Selenium WebDriver. It navig
     
     ```
     python web_automation.py
-    
     ```
     
 
