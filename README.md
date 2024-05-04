@@ -14,7 +14,6 @@ This Python script automates web interactions using Selenium WebDriver. It navig
 2. Install Selenium WebDriver using pip:
     
     ```
-    Copy code
     pip install selenium
     
     ```
@@ -29,7 +28,6 @@ This Python script automates web interactions using Selenium WebDriver. It navig
 3. Run the script:
     
     ```
-    Copy code
     python web_automation.py
     
     ```
