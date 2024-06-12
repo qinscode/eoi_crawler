@@ -1,5 +1,3 @@
-## README
-
 # SkillSelect Selenium Script for Australian Immigration
 
 This script is designed to automate the collection of Expression of Interest (EOI) data from the SkillSelect website provided by the Australian Department of Home Affairs. The SkillSelect platform allows skilled workers and business people to record their details to be considered for a skilled visa through an Expression of Interest. It helps manage Australia's skilled migration program and is a crucial resource for both potential migrants and Australian employers.
