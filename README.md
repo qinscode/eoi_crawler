@@ -67,6 +67,12 @@ The script performs the following steps to automate data collection:
    python eoi_data_collection.py
    ```
 
-This script will loop through each state in Australia, navigate through the SkillSelect website, search for the specific state's data, and export the data for further analysis. If any errors occur during execution, the script will print the error and continue with the next iteration.
+### Clicking Process
 
-By automating this data collection process, the script saves time and ensures accuracy in retrieving the necessary data from the SkillSelect platform.
+The program performs clicks on the webpage using the following process:
+
+1. Identification of Web Elements: The program identifies the web elements on the webpage where it needs to perform clicks. This is typically done using XPath expressions, CSS selectors, or other locating strategies provided by Selenium.
+2. Waiting for Element to be Clickable: Before performing a click action, the program waits for the targeted element to become clickable. This ensures that the element is fully loaded and ready to receive user interactions. The wait_and_click function utilizes Selenium's WebDriverWait to wait for the element to be clickable.
+3. Performing Click Action: Once the element is deemed clickable, the program executes the click action. This is done using the click() method on the identified WebElement object.
+4. Handling Exceptions: The program includes exception handling to deal with any errors that may occur during the clicking process. This ensures robustness and prevents the program from crashing unexpectedly. If an exception occurs, the program logs the error and continues with the next iteration or action.
+Repeat Process: The program repeats the above steps as necessary, clicking on different elements or performing clicks in a loop according to the logic of the automation task.
