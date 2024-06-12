@@ -64,7 +64,7 @@ The script performs the following steps to automate data collection:
 2. Copy the script into a Python file, e.g., `eoi_data_collection.py`.
 3. Run the script:
    ```bash
-   python eoi_data_collection.py
+   python main.py
    ```
 
 ### Clicking Process
